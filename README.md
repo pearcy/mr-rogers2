@@ -13,8 +13,8 @@ _Form that takes in a number and does some really wild things. See the specs bel
 
 Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number. Here are some examples with expected behavior along with the "exceptions". The exceptions are illustrated below.
 
-| Behavior                   | input | output                      |
-| -------------------------- | ----- | --------------------------- |
+| Behavior                       | input | output                      |
+| --------------------------     | ----- | --------------------------- |
 | User inputs the number "4"     | 4     | "0, Beep!, Boop!, Won't you be my neighbor?, 4"  |
 | User inputs the number "1"     | 1     | "0, Beep!"    |
 | User inputs the number "2"     | 2     | "0, Beep!, Boop!"   |
@@ -24,7 +24,8 @@ Create a web application that takes a number from a user and returns a range of 
 | the number "21"                | 21    | "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!"      |
 | the number "32"                | 32    | "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?" |
 
-- 
+
+
 ## Setup/Installation Requirements
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer.
