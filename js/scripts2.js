@@ -5,6 +5,69 @@
 //    console.log(student[item]);     // => "Bill", then 25, then "Masters"
 // }
 
+// ** Test 3 
+
+// ** Test forEach loop 
+
+function factorNumber(number) {
+  let rogersArray = [];
+  rogersArray.forEach(function(item) {
+    if (item.toString().includes('3')) {
+          rogersArray.push("Won't you be my neighbor?")
+          console.log(rogersArray);
+        } else 
+          rogersArray.push(item + " ");
+  });
+ 
+    return rogersArray;
+    
+
+  // for (let i = 0; i<= number; i++) {
+  //   if (i.toString().includes('3')) {
+  //     rogersArray.push("Won't you be my neighbor?")
+  //     // console.log(rogersArray);
+  //   } else 
+  //     rogersArray.push(' ' + i);
+   
+  // }
+
+  // return rogersArray;
+
+}
+
+
+function factorNumber(number) {
+  let rogersArray = [];
+ 
+  for (let item of rogersArray) {
+       if (item.toString().includes('3')) {
+      rogersArray.push("Won't you be my neighbor?")
+      // console.log(rogersArray);
+    } else 
+      rogersArray.push(item);
+   
+  }
+
+  return rogersArray;
+    
+
+  // for (let i = 0; i<= number; i++) {
+  //   if (i.toString().includes('3')) {
+  //     rogersArray.push("Won't you be my neighbor?")
+  //     // console.log(rogersArray);
+  //   } else 
+  //     rogersArray.push(' ' + i);
+   
+  // }
+
+  // return rogersArray;
+
+}
+
+
+
+// end test
+
 
 function factorNumber(number) {
   let rogersArray = [];

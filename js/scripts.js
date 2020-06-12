@@ -8,7 +8,7 @@ function factorNumber(number) {
       rogersArray.push("Won't you be my neighbor?")
       console.log(rogersArray);
     } else 
-      rogersArray.push(" " + i);
+      rogersArray.push(' ' + i);
    
   }
 
@@ -20,13 +20,11 @@ function factorNumber(number) {
 // UI Logic 
 
 $(document).ready(function() {
-  console.log('JavaScript is working')
-
+  
   // Input
   $('form').submit(function (event) {
     event.preventDefault();
     let number = parseInt($("#inputNumber").val());
-
 
 
   // Output
