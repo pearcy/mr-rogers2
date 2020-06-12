@@ -5,6 +5,23 @@
 //    console.log(student[item]);     // => "Bill", then 25, then "Masters"
 // }
 
+
+function factorNumber(number) {
+  let rogersArray = [];
+   for (let item of rogersArray) {
+     console.log(rogersArray[item]);
+ 
+     if (rogersArray.includes('3')) {
+       rogersArray.push("Won't you be my neighbor")
+       console.log(rogersArray);
+     } else
+     rogersArray.push(" " + i);
+     // console.log("something else");
+   
+   }
+ 
+ }
+
 function factorNumber(number) {
   let rogersArray = [];
   for (let i = 0; i<= number; i++) {

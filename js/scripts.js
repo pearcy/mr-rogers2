@@ -8,8 +8,8 @@ function factorNumber(number) {
       rogersArray.push("Won't you be my neighbor?")
       console.log(rogersArray);
     } else 
-    console.log("something else");
-
+      rogersArray.push(" " + i);
+   
   }
 
   return rogersArray;
@@ -40,25 +40,6 @@ $(document).ready(function() {
 
 
 
-// UI Logic Test 
-
-
-
-// $(document).ready(function () {
-//   console.log('JavaScript is working')
-
-//   // UI logic
-//   $('form').submit(function (event) {
-//     event.preventDefault();
-//     let number1 = parseInt($("#inputNumber").val());
-
-//     // Results
-    
-//     $("output").show();
-//     $('#output').empty();
-//     $("#output").append("<p>" + factorNumber(number1) + "</p>");
-//   });
-// });
 
 
 
