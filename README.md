@@ -6,7 +6,7 @@
 
 ## Description
 
-_Form that takes in a number and does some really wild things_
+_Form that takes in a number and does some really wild things. See the specs below for some mind numbing examples of the expected output._
 
 
 ### Specs
