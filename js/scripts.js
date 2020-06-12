@@ -6,9 +6,8 @@ function factorNumber(number) {
   for (let i = 0; i<= number; i++) {
     if (i.toString().includes('3')) {
       rogersArray.push("Won't you be my neighbor?")
-    } else if (i.toString().includes('2')) {
-      rogersArray.push("Boop!")
-    } else
+      console.log(rogersArray);
+    } else 
       rogersArray.push(' ' + i);
    
   }
