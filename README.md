@@ -8,23 +8,21 @@
 
 _Form that takes in a number and does some really wild things. See the specs below for some mind numbing examples of the expected output._
 
-## Test commit - 4:05pmls
 
-
-## Specsls
+## Specs
 
 Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number. Here are some examples with expected behavior along with the "exceptions". The exceptions replace words with certain numbers.
 
 | Behavior                   | input | output                      |
 | -------------------------- | ----- | --------------------------- |
-| User inputs the number "4"     | 4     | "0, 1, 2, 3, 4"             |
-| User inputs the number "1"     | 1     | "Beep!"                      |
-| User inputs the number "2"     | 2     | "Boop!"                      |
-| User inputs the number "3"     | 3     | "Won't you be my neighbor?" |
+| User inputs the number "4"     | 4     | "0, Beep!, Boop!, Won't you be my neighbor?, 4"  |
+| User inputs the number "1"     | 1     | "0, Beep!"    |
+| User inputs the number "2"     | 2     | "0, Beep!, Boop!"   |
+| User inputs the number "3"     | 3     | "0, Beep!, Boop!, Won't you be my neighbor?" |
 | User inputs the number "5"     | 5     | "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5 |
-| the number "13"    | 13    | "Won't you be my neighbor?" |
-| the number "21"    | 21    | "Boop"                      |
-| the number "32"    | 32    | "Won't you be my neighbor?" |
+| the number "13"    | 13    | "0,Beep!,Boop!,Won't you be my neighbor?, 4, 5, 6, 7, 8, 9,Beep!,Beep!,Boop!,Won't you be my neighbor?" |
+| the number "21"    | 21    | "0,Beep!,Boop!,Won't you be my neighbor?, 4, 5, 6, 7, 8, 9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!"      |
+| the number "32"    | 32    | "0,Beep!,Boop!,Won't you be my neighbor?, 4, 5, 6, 7, 8, 9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Won't you be my neighbor?,Won't you be my neighbor?" |
 
 - 
 ## Setup/Installation Requirements
