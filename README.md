@@ -8,22 +8,23 @@
 
 _Form that takes in a number and does some really wild things_
 
-## Specs
 
-| Behavior                                                                                                                              | input  | output                                                                 |
-| --------------------------------------------------------------------------------------------------------------------------------------| ------ | ---------------------------------------------------------------------- |
-| The program returns a range of numbers from 0 to the users inputted number                                                            | 4      | "0, 1, 2, 3, 4"                                                        |
-| Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"                                                           | 1      | "Beep"                                                              |
+### Specs
 
+| Behaviour | Input | Output |
+| :------------- | :------------- | :------------- |
+
+| User inputs the number "4"  | 4 | "0, 1, 2, 3, 4" |
+| User inputs the number "1" | 1 | "Beep!" |
+| User inputs the number "2" | 2 | "Boop!" |
+| User inputs the number "3" | 3 | "Won't you be my neighbor?" |
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this repository.
+* Navigate to index.html file.
+* Right click and open in the browser of your choice.
 
 
 ## Support
