@@ -5,12 +5,12 @@ function factorNumber(number) {
   let rogersArray = [];
   for (let i = 0; i<= number; i++) {
     if (i.toString().includes('3')) {
-      rogersArray.push("Won't you be my neighbor?")
+      rogersArray.push(" Won't you be my neighbor?")
       console.log(rogersArray);
     } else if (i.toString().includes('2')) {
-      rogersArray.push("Boop!")
+      rogersArray.push(" Boop!")
     } else if (i.toString().includes('1')) {
-      rogersArray.push("Beep!")
+      rogersArray.push(" Beep!")
     } else
       rogersArray.push(" " + i);
    
