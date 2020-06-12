@@ -11,7 +11,12 @@ _Form that takes in a number and does some really wild things. See the specs bel
 
 ## Specs
 
-Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number. Here are some examples with expected behavior along with the "exceptions". The exceptions are illustrated below.
+Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number. Here are some examples with expected behavior along with the "exceptions". The exceptions are:
+
+- The number 13 should be replaced with "Won't you be my neighbor?"
+- The number 21 should be replaced with "Boop".
+- The number 32 should be replaced with "Won't you be my neighbor?"
+
 
 | Behavior                       | input | output                      |
 | --------------------------     | ----- | --------------------------- |
