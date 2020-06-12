@@ -1,12 +1,21 @@
 # _Mr Rogers Neighborhood_
 
-#### _For that takes in a sentence and does some really wild things, 6/12/20_
+#### _Form that takes in a number and does some really wild things, 6/12/20_
 
 #### By _**Joseph Pearce**_
 
 ## Description
 
-_For that takes in a sentence and does some really wild things_
+_Form that takes in a number and does some really wild things_
+
+## Specs
+
+| Behavior                                                                                                                              | input  | output                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------| ------ | ---------------------------------------------------------------------- |
+| The program returns a range of numbers from 0 to the users inputted number                                                            | 4      | "0, 1, 2, 3, 4"                                                        |
+| Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"                                                           | 1      | "Beep"                                                              |
+
+
 
 ## Setup/Installation Requirements
 
@@ -15,6 +24,11 @@ _For that takes in a sentence and does some really wild things_
 * _in a simple_
 * _easy-to-understand_
 * _format_
+
+
+## Support
+
+_The software is provided as is. You drive it off the lot it's yours!_
 
 
 
