@@ -14,19 +14,14 @@ Create a web application that takes a number from a user and returns a range of 
 
 | Behavior                   | input | output                      |
 | -------------------------- | ----- | --------------------------- |
-| User inputs the number "4" | 4     | "0, 1, 2, 3, 4"             |
-| User inputs the number "1" | 1     | "Beep"                      |
-| User inputs the number "2" | 2     | "Boop"                      |
-| User inputs the number "3" | 3     | "Won't you be my neighbor?" |
-
-| User inputs the number "5"  | "5" | "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5 |
-| --------------------------- | --- | ------------------------------------------------------- |
-
-
-| User inputs the number "13" | 13  | "Won't you be my neighbor?" |
-| --------------------------- | --- | --------------------------- |
-| User inputs the number "21" | 21  | "Boop"                      |
-| User inputs the number "32" | 32  | "Won't you be my neighbor?" |
+| User inputs the number "4"     | 4     | "0, 1, 2, 3, 4"             |
+| User inputs the number "1"     | 1     | "Beep"                      |
+| User inputs the number "2"     | 2     | "Boop"                      |
+| User inputs the number "3"     | 3     | "Won't you be my neighbor?" |
+| User inputs the number "5"     | "5"   | "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5 |
+| User inputs the number "13"    | 13    | "Won't you be my neighbor?" |
+| User inputs the number "21"    | 21    | "Boop"                      |
+| User inputs the number "32"    | 32    | "Won't you be my neighbor?" |
 
 
 
