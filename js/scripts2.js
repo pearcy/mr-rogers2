@@ -5,7 +5,7 @@
 //    console.log(student[item]);     // => "Bill", then 25, then "Masters"
 // }
 
-// ** Test 3 
+// ** Test 3 gi
 
 // ** Test forEach loop 
 
