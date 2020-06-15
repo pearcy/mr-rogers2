@@ -30,15 +30,23 @@ Create a web application that takes a number from a user and returns a range of 
 | the number "32"                | 32    | "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?" |
 
 
-
 ## Setup/Installation Requirements
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer.
 
-- Clone this repository.
-- Go into the repository
-- Navigate to index.html file.
-- Right click and open in the browser of your choice.
+Open by downloading:
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+1. Clone this repository onto your computer:
+`$ git clone https://github.com/pearcy/mr-rogers2.git`
+2. Navigate into the `mr-rogers2` directory in Visual Studio Code or preferred text editor
+`$ code .`
+3. Open index.html in Chrome or preferred browser:
+`$ open index.html`
+
+
 
 ## Support
 
